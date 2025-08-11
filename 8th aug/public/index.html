@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Task Manager</h1>
+            <p>Organize your day, one task at a time.</p>
+        </header>
+
+        <main>
+            <section class="task-form-section">
+                <h2>Add New Task</h2>
+                <form id="task-form">
+                    <div class="form-group">
+                        <label for="task-title">Task Title</label>
+                        <input type="text" id="task-title" placeholder="e.g., Buy groceries" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="task-description">Description (Optional)</label>
+                        <textarea id="task-description" rows="3" placeholder="e.g., Milk, eggs, bread"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Task</button>
+                </form>
+            </section>
+
+            <section class="task-list-section">
+                <h2>Your Tasks</h2>
+                <div id="loading-indicator" class="loading-indicator hidden">
+                    <img src="/loading.gif" alt="Loading..." class="loading-gif">
+                    <p>Loading tasks...</p>
+                </div>
+                <div id="task-list" class="task-list">
+                    <!-- Tasks will be loaded here by JavaScript -->
+                </div>
+                <p id="no-tasks-message" class="no-tasks-message hidden">No tasks yet! Add one above.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; {'2024'} Task Manager. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
