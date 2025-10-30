@@ -1,9 +1,7 @@
 👨‍💻 Author
 
 1)Bajrang Patil
-
 2)Vaishali chargundi
-
 3) vaishnavi kenchi
 
 React API Project
