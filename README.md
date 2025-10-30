@@ -1,8 +1,10 @@
 👨‍💻 Author
 
-Bajrang Patil
+1)Bajrang Patil
 
-Vaishali chargundi
+2)Vaishali chargundi
+
+3) vaishnavi kenchi
 
 React API Project
 A modern React application that fetches and displays data from an external API with a clean, responsive UI. Built with React, JavaScript (ES6+), and modern tooling to demonstrate API integration, component-based architecture, and reusable UI patterns.
